@@ -204,3 +204,9 @@ input:checked ~ .bubble::after {
   text-decoration: line-through;
   color: var(--light);
 }
+@media (max-width: 482px) {
+  .todo-list .todo-item {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
